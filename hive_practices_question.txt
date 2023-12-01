@@ -1,0 +1,299 @@
+1. What is the Hive
+A. Hive is a data warehousing and sql-like query language system built on Hadoop for managing and querying large-scale structured and semi-structured data store in distributed storage
+
+2. What is the Hive default warehouse directory location
+A. 
+
+3. What is the Hive schema type read/write
+A. 
+
+4. Where store Hive data
+A. 
+
+5. where store Hive metadata
+A. 
+
+6. Where data process in Hive
+A. 
+
+7. What is the hive storage format column or raw
+A. 
+
+8. What is  Hive scalability on Hadoop cluster
+A. 
+
+9. Explain database operations like create, drop, etc.
+A. 
+
+10. how to create table in Hive
+A. 
+
+11. What is the difference between describe formatted and describe extended
+A. 
+
+12. Load data on Hive table from HDFS
+A. 
+
+13. Load data on hive table from local system
+A. 
+
+14. Find the difference between "load data local in path" and "load data inpath"
+A. 
+
+15. What is the difference between external table and internal table in Hive
+A. 
+
+16. How to create external table and internal table in Hive
+A. 
+
+17. How to convert external table to internal table and internal table to external table
+A. 
+
+18. How to copy from existing table to new table schema only
+A. 
+
+19. how to copy existing table data in new table in Hive
+A. 
+
+20. What is the temporary table and how to create it
+A. 
+
+21. How to export hive table data to local system
+A. 
+
+22. What is the Array, Map and Struck in Hive table
+A. 
+
+23. How many types of handling null value in Hive table and how do it
+A. 
+
+24. List of string function in Hive
+A. 
+
+25. What is the difference between partitioning and bucketing in Hive
+A. 
+
+26. what is the difference between static partitioning and dynamic partitioning
+A. 
+
+27. Which keyword use to create partitioning table in Hive
+A. 
+
+28. which keywords use to create bucketing table in Hive
+A. 
+
+29. How to create static and dynamic partitioning in Hive
+A. 
+
+30. How to load data in dynamic and static partitioning
+A. 
+
+31. how to create bucketing table in Hive
+A. 
+
+32. How to create multi column partitioning in Hive
+A. 
+
+33. How to show partition column in Hive table
+A. 
+
+34. What is the #hash function and how it worked in Hive bucketing 
+A. 
+
+35. What is the Hive design level optimization and storage level optimization
+A. 
+
+36. what is the serialization and deserialization in Hive
+A. 
+
+37. how many types of join in Hive
+A. 
+
+38. What is the difference between common join, map-side join, bucket-map join, short-merge-bucket join and skew join
+A. 
+
+39. What is the cost based optimization
+A. 
+
+40. How to use aggregation function in Hive
+A. 
+
+41. How to use window function in hype
+A. 
+
+42. How to save Hive query in file and run after some time when you required this code
+A. 
+
+43. How to use HDFS command in Hive
+A. 
+
+44. How to create view in Hive table
+A. 
+
+45. 
+A. 
+
+46. 
+A. 
+
+47. 
+A. 
+
+48. 
+A. 
+
+49. 
+A. 
+
+50. 
+A. 
+
+51. 
+A. 
+
+52. 
+A. 
+
+53. 
+A. 
+
+54. 
+A. 
+
+55. 
+A. 
+
+56. 
+A. 
+
+57. 
+A. 
+
+58. 
+A. 
+
+59. 
+A. 
+
+60. 
+A. 
+
+61. 
+A. 
+
+62. 
+A. 
+
+63. 
+A. 
+
+64. 
+A. 
+
+65. 
+A. 
+
+66. 
+A. 
+
+67. 
+A. 
+
+68. 
+A. 
+
+69. 
+A. 
+
+70. 
+A. 
+
+71. 
+A. 
+
+72. 
+A. 
+
+73. 
+A. 
+
+74. 
+A. 
+
+75. 
+A. 
+
+76. 
+A. 
+
+77. 
+A. 
+
+78. 
+A. 
+
+79. 
+A. 
+
+80. 
+A. 
+
+81. 
+A. 
+
+82. 
+A. 
+
+83. 
+A. 
+
+84. 
+A. 
+
+85. 
+A. 
+
+86. 
+A. 
+
+87. 
+A. 
+
+88. 
+A. 
+
+89. 
+A. 
+
+90. 
+A. 
+
+91. 
+A. 
+
+92. 
+A. 
+
+93. 
+A. 
+
+94. 
+A. 
+
+95. 
+A. 
+
+96. 
+A. 
+
+97. 
+A. 
+
+98. 
+A. 
+
+99. 
+A. 
+
+100. 
+A. 
