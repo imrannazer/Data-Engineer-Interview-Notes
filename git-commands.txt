@@ -1,0 +1,247 @@
+git init : git initialize
+ls -a: Show hidden files
+---------
+git remote add origin <SSH dirictory path>: Set origin path
+git remote add origin https://github.com/imrannazer/learn_git.git
+---------
+git log: show all commits if exist
+git status: Directory current status
+---------
+git pull origin master: pull code form remote to local
+------fatal: couldn't find remote ref master
+------Resolve this error
+		git status
+		git add .
+		git commit -m "commit for testing only"
+
+------- Move branch
+git branch -m main master
+git fetch origin
+git branch -u master master
+git remote set-head origin -a
+
+--------fatal: refusing to merge unrelated histories-------
+ git pull origin master --allow-unrelated-histories
+---------
+git log: Show all recent commits
+---------
+git show <commit id>: Show what commit on this id minimum 8 id <e676a62c>
+git show e676a62c3814e960059df1f10605631747d45a25
+
+
+---------
+git push: push data on branch
+git push --set-upstream origin master: set push upstream
+git push origin master: send data in centeral repo
+---------append text in esistring file
+cat >> testring.txt
+this is new line
+this second line
+Enter
+Ctrl+d
+---------------------------------------------------
+--------------------------------------------------
+--------------------------------------------------
+--------------------------------------------------
+	git reset
+git restore --staged testing.txt/ . : reverse from git commit 
+do this on public file
+-------------------------------------------------
+:
+exit form there "q" only press
+-------------------------------------------------
+vi .gitignore: create a new file and insert something
+vi .gitignore
+i (i for insert somethig now, looking INSERT in down side)
+:wq
+exit form file inserting
+# .gitignore dont track which given inside this file and folder/directory
+--------------------------------------------------
+touch file.txt: create a new blank file
+--------------------------------------------------
+cat >> file.txt: create and insert something in file
+cat > fule.txt: delete all existing and write something new
+--------------------------------------------------
+git log --grep: serch all commits
+If you find your commit then use it
+----------------------------------------------------
+git log --oneline: show commit in one by one line
+
+----------------------------------------------------
+----------------------------------------------------
+		git branch
+----------------------------------------------------
+git branch: show all branches with current branch
+(current branch defien by *)
+---------------------------------------------------
+git branch <branch_name>: create new branch
+(new branch copy all data and commits form master branch)
+git checkout <branch_name> change branch 
+(branch show after push commnad)
+--------------------------------------------------
+pulling mechanism (pull new data/code[not availabel in master branch] from git branch)
+git merge <branch_name>: copy data form branch to master or master to branch 
+
+
+--------------------------------------------------
+--------------------------------------------------
+--------------------------------------------------
+	git conflict (two similar type in two places)
+data complitely different in both same name file, then we will get errors.
+When some file having different Content in different branches, if you do merge, Conflict Occurs (Resalve Conflict then add and Commit)
+
+Conflict occurs When you merge Branches
+- just go to file check correct context and save file
+git merge <branch_name>
+
+--------------------------------------------------
+--------------------------------------------------
+--------------------------------------------------
+	git stashing(temporary derectory)
+git stash: hold your current work and start a temprory work
+git stash list: show all git stash commit and works
+git stash clear: clear data from git stash temp-repo
+
+--------------------------------------------------
+--------------------------------------------------
+--------------------------------------------------
+	git reset
+git reset <file_name>: undo single file form git add 
+git reset .: reset all fiel and works from git add
+git reset --hard: remove form working space and staging area
+(git reset command use before commit )
+
+
+--------------------------------------------------
+--------------------------------------------------
+--------------------------------------------------
+	git revert (after commit) do this on public file
+git revert <commit_id>:
+(put a message "please ignore commit <commit_id>")
+
+----------------------------------------------------
+----------------------------------------------------
+----------------------------------------------------
+	useful git command
+git clean -n: ask to delete untracked files (ask before delete)
+git clean -f: delete untracked files fource fully(does not ask before delete)
+
+
+
+----------------------------------------------------
+----------------------------------------------------
+----------------------------------------------------
+	tags
+git log --oneline: check log and use tag on log id
+git tag: see all tags
+git tag -a <tag_name> -m "<commit_messages>" <commit_id_7>
+git tag -a important -m "this is important commit" a42c547
+git tag <tag_name>: show commit info
+git tab -d <tag_name>:delete a tag
+
+----------------------------------------------------
+----------------------------------------------------
+----------------------------------------------------
+	git clone
+git clone <url>: clone a git repo
+
+----------------------------------------------------
+----------------------------------------------------
+git log --oneline
+git log --graph
+git log --graph --oneline
+git log --stat
+git log -4 (only last 4 commits)
+git shortlog
+
+----------------------------------------------------
+----------------------------------------------------
+	git commit filtering by author name and keyword
+git log --author="<author_name>"
+git log --author="imrannazer"
+git log --author="imrannazer" --oneline
+git log --grep="<keyword>" (search by keyword)
+git log --grep="<keyword>" --oneline
+----------------------------------------------------
+----------------------------------------------------
+git log --merges --oneline: 
+git log --no-merges --oneline: watch without merge commit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
