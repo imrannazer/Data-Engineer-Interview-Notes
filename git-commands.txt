@@ -3,6 +3,7 @@ ls -a: Show hidden files
 ---------
 git remote add origin <SSH dirictory path>: Set origin path
 git remote add origin https://github.com/imrannazer/learn_git.git
+git remote -v : check current push and pull repo
 ---------
 git log: show all commits if exist
 git status: Directory current status
