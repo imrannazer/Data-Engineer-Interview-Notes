@@ -1,0 +1,70 @@
+1. Project Architecture Components :
+	Data Sources:
+		Identify and connect to various data sources, such as databases, APIs, logs, or external services, where the raw data is generated or stored.
+
+	Data Ingestion:
+		Ingest the data from the sources into the data processing system. Common tools for data ingestion include Apache Kafka, Apache NiFi, or cloud-based services like AWS Kinesis or Google Cloud Pub/Sub.
+
+	Data Storage:
+		Store the raw data in a scalable and efficient storage system. Common choices are data lakes (e.g., AWS S3, Google Cloud Storage) for large-scale storage and relational databases (e.g., PostgreSQL, MySQL) or NoSQL databases (e.g., MongoDB, Cassandra) for structured data.
+
+	Data Processing:
+		Transform and process the raw data into a structured format suitable for analysis. Apache Spark, Apache Flink, or cloud-based services like AWS Glue or Google Dataflow are commonly used for distributed data processing.
+
+	Data Transformation:
+		Apply necessary transformations to clean, enrich, or aggregate the data. This stage often involves ETL (Extract, Transform, Load) processes. Apache Beam and tools like Apache Airflow are used for orchestrating ETL workflows.
+
+	Data Quality and Governance:
+		Implement checks and validations to ensure data quality and governance. This may involve detecting and handling missing or inconsistent data, as well as ensuring compliance with regulatory requirements.
+
+	Data Warehousing:
+		For analytics and reporting purposes, store the processed and transformed data in a data warehouse. Popular choices include Amazon Redshift, Google BigQuery, or Snowflake. This allows for efficient querying and analysis.
+
+	Business Intelligence (BI) and Analytics:
+		Enable data analysts and business users to explore and visualize the data for insights. Tools like Tableau, Looker, or Power BI are commonly used for creating dashboards and reports.
+
+	Data Orchestration and Workflow Management:
+		Manage the overall workflow of the data pipeline. This involves scheduling, monitoring, and orchestrating tasks. Apache Airflow and Luigi are popular tools for workflow management.
+
+	Monitoring and Logging:
+		Implement monitoring and logging to track the performance, health, and issues within the data pipeline. Tools like Prometheus, Grafana, or ELK stack (Elasticsearch, Logstash, Kibana) are commonly used.
+
+	Security and Access Control:
+		Implement security measures to protect sensitive data and enforce access control. This includes encryption, authentication, and authorization mechanisms.
+
+	Scalability and Performance Optimization:
+		Design the architecture to be scalable, allowing it to handle growing volumes of data. Consider optimizing performance through parallel processing, partitioning, and indexing.
+
+	Documentation:
+		Maintain documentation for the entire data engineering pipeline, including data schemas, transformation logic, and dependencies, to facilitate collaboration and future maintenance.
+
+	Version Control:
+		Implement version control for your code, configuration, and infrastructure to manage changes and rollbacks effectively.
+
+	Popular CI/CD tools include Jenkins, GitLab CI/CD, Travis CI, CircleCI, and many cloud-based services like AWS CodePipeline, Azure DevOps, and Google Cloud Build.
+
+
+
+
+1. Project Structure
+	Defined_variables
+		Environment variables
+		
+	Data Transform
+	Create_spark_object
+	Visualization
+	validations
+	Run_workflow.py
+	Creating_DataFrames
+	Data_Quality_Rules
+	Exception Handling
+	
+
+2. Day to day tasks
+3. Challenges
+4. Amount of data
+5. Time required to run a pipeline, spark job
+6. Cluster configuration
+7. Error handling
+8. Cl/CD pipelines
+9. Ve
